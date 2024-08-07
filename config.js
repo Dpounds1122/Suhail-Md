@@ -105,10 +105,7 @@ global.aitts_Voice_Id = process.env.AITTS_ID|| "37";
 always online/no sleep 
 
 
-alive "true"
-working "24/7"
-"24/7" working 
-"no sleep" /"24/7"/"alive"/"working always"
+
 "yarn stop & yarn start "
 
 
