@@ -106,7 +106,7 @@ always online/no sleep
 
 
 
-"yarn stop & yarn start "
+
 
 
 
@@ -122,7 +122,7 @@ always online/no sleep
 
 
 global.rank = "updated"
-global.isMongodb = false; 
+global.isMongodb =se; 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];	require(file); })
  
